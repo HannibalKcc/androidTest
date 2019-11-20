@@ -3,7 +3,6 @@ package com.example.android_test
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.andtoid_test.Main3Activity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -26,6 +25,12 @@ class MainActivity : AppCompatActivity() {
         button3.setOnClickListener {
             val intent = Intent()
             intent.setClass(this, Main3Activity::class.java)
+            startActivity(intent)
+        }
+
+        button4.setOnClickListener {
+            val intent = Intent()
+            intent.setClass(this, MapboxSymbolDemo::class.java)
             startActivity(intent)
         }
     }

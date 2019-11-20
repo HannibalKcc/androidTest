@@ -1,4 +1,4 @@
-### Android_Test
+### androidTest
 用于简单的 Android 研究——
 1. 研究原生 Android 的基础架构知识。
 2. 测试 `flutter` 混入原生的效果与架构设计方式。

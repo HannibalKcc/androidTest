@@ -1,4 +1,4 @@
-package com.example.andtoid_test
+package com.example.android_test
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
